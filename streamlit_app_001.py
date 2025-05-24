@@ -3,10 +3,11 @@ import mlflow.sklearn
 import numpy as np
 
 st.title("Predicción de Diabetes")
-
+st.title("Byron Bravo")
+mlflow.set_tracking_uri("http://127.0.0.1:9090")
 # Configurar conexión con MLflow Tracking Server
 pass
-
+model = mlflow.sklearn.load_model("models:/Modelo_01/1")
 # Cargar modelo desde el Model Registry, revise el ejemplo de flask
 pass
 

@@ -1,0 +1,8 @@
+# Entornos virtuales y datos temporales
+venv/
+.ipynb_checkpoints/
+mlruns/
+*.db
+__pycache__/
+flask-mlflow/
+mlartifacts/
